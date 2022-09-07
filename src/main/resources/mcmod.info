@@ -1,0 +1,10 @@
+[
+    {
+        "modid": "examplemod",
+        "name": "ExampleMod",
+        "description": "Example legacy forge mod.",
+        "version": "${version}",
+        "mcversion": "1.6.4",
+        "authorList": ["Author"]
+    }
+]
