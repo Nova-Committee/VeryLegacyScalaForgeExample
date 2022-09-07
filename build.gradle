@@ -16,6 +16,7 @@ buildscript {
     }
 }
 
+apply plugin: 'scala'
 apply plugin: 'forge'
 
 version = "1.0.0"
@@ -26,8 +27,6 @@ sourceCompatibility = targetCompatibility = 6
 
 minecraft {
 	version = "1.6.4-9.11.1.964"
-	replaceIn 'src/main/java/committee/nova/examplemod/ExampleMod.java'
-	replace '@VERSION@', project.version
 }
 
 
